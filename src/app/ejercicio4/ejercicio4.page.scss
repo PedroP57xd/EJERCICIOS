@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    ion-row {
+        display: flex;
+        flex-direction: column-reverse; /* Cambia el orden a inverso: B | A */
+    }
+
+    ion-col {
+      width: 100%; /* Ajusta el ancho para que ocupen toda la pantalla */
+    }
+}
